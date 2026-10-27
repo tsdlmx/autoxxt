@@ -1,0 +1,30 @@
+{
+  "browser": {
+    "executablePath": null,
+    "port": 9222,
+    "profileDir": null,
+    "headless": false
+  },
+  "llm": {
+    "baseUrl": "https://api.deepseek.com/v1",
+    "apiKey": "",
+    "model": "deepseek-chat",
+    "temperature": 0,
+    "batch": 10
+  },
+  "quiz": {
+    "autoSubmit": true,
+    "force": false,
+    "skipDone": true,
+    "minScoreToLearn": 0,
+    "maxRetryPerWork": 1
+  },
+  "kb": {
+    "fuzzyMin": 0.82,
+    "optMin": 0.86
+  },
+  "paths": {
+    "kbFile": null,
+    "fontMapDir": null
+  }
+}
