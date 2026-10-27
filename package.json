@@ -1,0 +1,27 @@
+{
+  "name": "autoxxt",
+  "version": "1.0.0",
+  "description": "学习通（超星）章节测验/作业自动答题：零依赖、自动破解字体混淆、题库自学习 + LLM 兜底、不接管你的浏览器",
+  "main": "src/index.js",
+  "bin": {
+    "autoxxt": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/unit.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "chaoxing",
+    "xuexitong",
+    "超星",
+    "学习通",
+    "自动答题",
+    "chapter-quiz",
+    "cdp"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
