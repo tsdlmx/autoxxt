@@ -2,6 +2,11 @@ node_modules/
 config.json
 data/
 .profile/
+.profile-*/
+vendor/
+.tools/
 *.log
+*pat*.txt
+*token*.txt
 .DS_Store
 Thumbs.db
